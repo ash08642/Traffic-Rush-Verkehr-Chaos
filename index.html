@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>My first three.js app</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div id="heading"><h1>Traffic Rush--Verkehr Chaos</h1></div>
+		<br>
+		<div id="inGameStats">	
+			<h2 id="score">Score : </h2>
+			<h2 id="lives">Lives : </h2>
+			<h2 id="highScore">High Score : </h2>
+		</div>
+		<div id="helpingBlock">
+		<div id="artifactCanvas">
+			<div id="StartGame">
+				<button id="spielStarten"> Start Game/Spiel starten</button>
+			</div>
+			<div id="PauseGame">
+				<button id="continue"> Resume Game/Spiel Fortsetzen</button>
+				<button class="NeuSpielStarten"> Start New Game/Neu Spiel starten</button>
+			</div>
+			<div id="EndGame">
+				<h2 id="Points"> Final Score/Endstand</h2>
+				<button class="NeuSpielStarten2"> Start New Game/Neu Spiel starten</button>
+			</div>
+		</div>
+		</div>
+		<div id="instructions">
+			<div id="up">
+				<img src="up5.png" alt="Up Arrow">
+				<p class="arrowControls">Accelerate</p>
+			</div>
+			<div id="down">
+				<img src="down5.png" alt="Down Arrow">
+				<p class="arrowControls">Decelerate</p>
+			</div>
+			<div class="letterControls">
+				<h1 class="letterControl">R</h1>
+				<p class="controls">Restart Game</p>
+			</div>
+			<div class="letterControls">
+				<h1 class="letterControl">P</h1>
+				<p class="controls">Pause Game</p>
+			</div>
+		</div>
+		<footer>
+			<p>Author: ahmad.abeer11@gmail.com<br>
+			<a href="mailto:hege@example.com">Github</a><br>
+			<a href="mailto:hege@example.com">QuellCode</a></p>
+		</footer>
+		<script src="three.min.js"></script>
+		<script src="animate.js" type="module"></script>
+	</body>
+</html>

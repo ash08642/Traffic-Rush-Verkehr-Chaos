@@ -1,0 +1,206 @@
+* {
+    color: rgb(209, 245, 252);
+    }
+body { 
+    margin: 0; 
+    background-image: url("3916.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 1060;
+    min-height: 100vh;
+}
+#heading{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: rgb(209, 245, 252);
+    background-color: rgb(51, 0, 138);
+}
+h1{
+    margin: 0px;
+}
+h2  {
+    float: left;
+    margin-left: 30px;
+    top: 100%;
+    margin-top: 0px;
+}
+#inGameStats{
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(209, 245, 252);
+    background-color: rgba(51, 0, 138, 0.329);
+}
+#StartGame{
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 815px;
+    height: 490px;
+    position: absolute;
+    background-color: rgba(51, 0, 138, 0.433);
+}
+button{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    color: #000;
+    background-color:rgb(209, 245, 252);
+    padding: 25px;
+    font-size: 18px;
+    border-radius: 20px;
+    border-width: 10px;
+    border-color: aqua;
+    font-weight: bolder;
+}
+button:hover{
+    background-color: aqua;
+}
+#spielStarten{
+    margin-top: 200px;
+}
+#PauseGame{
+    position: absolute;
+    width: 550px;
+    height: 300px;
+    background-color: rgb(51, 0, 138);
+    margin-left: 125px;
+    margin-top: 90px;
+    border-radius: 30px;
+    border-width: 10px;
+    border-color: black;
+    border-style:solid;
+    display: none;
+}
+#EndGame{
+    position: absolute;
+    width: 550px;
+    height: 300px;
+    background-color: rgb(51, 0, 138);
+    margin-left: 125px;
+    margin-top: 90px;
+    border-radius: 30px;
+    border-width: 10px;
+    border-color: black;
+    border-style:solid;
+    display: none;
+}
+#Points{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    padding: 25px;
+    background-color: #00000058;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#continue{
+    margin-top: 5%;
+    margin-bottom: 10%;
+} 
+#score{
+}
+#lives{
+}
+#instructions{
+    float: left;
+    width: fit-content;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+img{
+    border: 2px;
+    float: left;
+    background-color: rgb(209, 245, 252);
+    padding: 10px;
+    border-radius: 20px;
+    position: relative;
+    right: 10px;
+}
+#up{
+   clear: both;
+   padding: 10px;
+   height: 50px;
+   width: fit-content;
+   margin-bottom: 15px;
+   color: #000;
+   font-weight: bolder;
+}
+#down{
+    padding: 10px;
+    height: 50px;
+    width: fit-content;
+    margin-bottom: 15px;
+}
+.letterControls{
+    margin-bottom: 40px ;
+}
+.controls{
+    color: #000;
+    font-weight: bolder;
+    float: left;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 20px;
+}
+.arrowControls{
+    color: #000;
+    font-weight: bolder;
+    float: left;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 10px;
+}
+.letterControl{
+    clear: left;
+    float: left;
+    padding: 10px;
+    background-color: rgb(209, 245, 252);
+    border-radius: 10px;
+    border-color: black;
+    color: black;
+}
+#artifactCanvas{
+    width: fit-content;
+    border-style:double;
+    border-width: 20px;
+    border-color: rgb(51, 0, 138);
+    position: absolute;
+}
+#helpingBlock{
+    float: left;
+    clear: left;
+    width: 850px;
+    height: 525px;
+    background-color: green;
+    z-index: -2;
+}
+@media screen and (max-width: 1185px) {
+    #instructions{
+        clear: both;
+        height:fit-content;
+        width: fit-content;
+    }
+    #up{
+        float: left;
+    }
+    #down{
+        float: left;
+    }
+    .letterControls{
+        float: left;
+    }
+    img{
+        left: 5px;
+        right: 0px;
+    }
+}
+footer{
+    clear: both;
+}
