@@ -199,6 +199,9 @@ img{
 }
 footer{
     clear: both;
+    top: 100%;
+    position: sticky;
+    width: 100%;
     text-align: center;
     padding: 3px;
     background-color: DarkSalmon;
